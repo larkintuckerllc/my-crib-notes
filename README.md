@@ -16,3 +16,10 @@ Mutual TLS extends TLS by having both the client and server authenticate each ot
 
 - [Cartoon (PDF)](notes/mutual-tls-authentication.pdf)
 - [Written notes (Markdown)](notes/mutual-tls-authentication.md)
+
+## Kubernetes API Versioning
+
+A Kubernetes object can have several API representations. Starting with a seemingly missing HPA setting, this overview explores served, preferred, and storage versions, then applies the same ideas to External Secrets custom resource definitions.
+
+- [Cartoon (PDF)](notes/kubernetes-api-versioning.pdf)
+- [Written notes (Markdown)](notes/kubernetes-api-versioning.md)
