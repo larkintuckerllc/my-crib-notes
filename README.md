@@ -23,3 +23,10 @@ A Kubernetes object can have several API representations. Starting with a seemin
 
 - [Cartoon (PDF)](notes/kubernetes-api-versioning.pdf)
 - [Written notes (Markdown)](notes/kubernetes-api-versioning.md)
+
+## Kueue: Queues, Quotas, and Workload Admission
+
+Kueue decides when workloads can be admitted based on queue policy and resource quota; the Kubernetes scheduler places admitted Pods. This overview follows LocalQueues and ClusterQueues through quota sharing, Cohorts, priority, ResourceFlavors, and Deployment Pods.
+
+- [Cartoon (PDF)](notes/kueue-queues-quotas-and-admission.pdf)
+- [Written notes (Markdown)](notes/kueue-queues-quotas-and-admission.md)
