@@ -17,6 +17,13 @@ Mutual TLS extends TLS by having both the client and server authenticate each ot
 - [Cartoon (PDF)](notes/mutual-tls-authentication.pdf)
 - [Written notes (Markdown)](notes/mutual-tls-authentication.md)
 
+## GKE Workload Identity: One Workload, Two Identity Jobs
+
+This cartoon contrasts Workload Identity Federation for Google Cloud API access with Managed Workload Identities for workload-to-workload mTLS. The Mutual TLS Authentication cartoon or written notes are prerequisites.
+
+- [Cartoon (PDF)](notes/gke-workload-identity.pdf)
+- [Written notes (Markdown)](notes/gke-workload-identity.md)
+
 ## Kubernetes API Versioning
 
 A Kubernetes object can have several API representations. Starting with a seemingly missing HPA setting, this overview explores served, preferred, and storage versions, then applies the same ideas to External Secrets custom resource definitions.
